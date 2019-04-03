@@ -1,0 +1,30 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open -w --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewelai/test-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ewelai/test-webpack/issues"
+  },
+  "homepage": "https://github.com/Ewelai/test-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "path": "^0.12.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
